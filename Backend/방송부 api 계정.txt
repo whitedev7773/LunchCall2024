@@ -1,4 +1,0 @@
-OpenWeatherAPI
-ID : jcjeil_broadcast
-PW : 방송부177!!
-KEY : 1e780cdcdf5762aa8f1a5d61afdae672
