@@ -1,0 +1,15 @@
+<script>
+    function onGeoOk(position) {
+        const lat = position.coords.latitude;
+        const lng = position.coords.longitude;
+        document.getElementsByTagName("p")[0].innerHTML = lat + "," + lng
+    }
+
+    function onGeoError() {
+        alert("위치 권한 필요");
+    }
+
+    navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
+</script>
+
+<p>Geolocation Here</p>

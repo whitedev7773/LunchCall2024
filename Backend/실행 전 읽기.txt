@@ -1,0 +1,22 @@
+1. NodeJS 런타임(LTS)이 설치되어있어야합니다.
+NodeJS : https://nodejs.org/en
+
+2. 윈도우 검색란에 PowerShell을 입력하여 실행합니다.
+
+3. 아래 명령어를 한 줄씩 복사/붙여넣기 후 Enter
+npm install
+npm install -g npm-check-updates
+ncu
+ncu -u
+npm install
+
+4. 완료했다면 open-to-start.bat를 실행합니다.
+5. 서버가 시작했는지 확인하기 위해https://localhost:7773/geolocation에 접속하세요
+5+. 소수점이 많은 숫자 2개가 표시된다면 정상적으로 운영되고 있다는 뜻입니다.
+5++. 서버는 Ctrl+C 또는 창을 닫아 종료할 수 있습니다
+
+6. 다음 실행부터 1~3은 생략해도 됩니다.
+
+7. 하지만 과정 3은 1달 또는 2달에 한번씩 입력해주세요. (보안 취약점을 없애기 위함)
+
+8. 만약 오류가 발생한다면 NodeJS를 다시 설치 후 시도해보세요

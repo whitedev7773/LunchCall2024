@@ -1,0 +1,44 @@
+{
+    "call_start": {
+        "hour": 22,
+        "minute": 52
+    },
+    "order": [
+        [
+            "3",
+            "#0984e3"
+        ],
+        [
+            "2",
+            "#00b894"
+        ],
+        [
+            "1",
+            "#fd79a8"
+        ]
+    ],
+    "show_second": [
+        10,
+        10,
+        10
+    ],
+    "delay": [
+        10,
+        10,
+        10
+    ],
+    "is_mute": false,
+    "voice": "Ring",
+    "geolocation": {
+        "lat": null,
+        "lon": null
+    },
+    "last_save": {
+        "year": 2024,
+        "month": 2,
+        "day": 5,
+        "hour": 23,
+        "minute": 15,
+        "second": 46
+    }
+}
