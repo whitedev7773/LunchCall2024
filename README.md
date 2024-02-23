@@ -40,6 +40,9 @@
 
 실행을 위해 최신 버전의 Node.JS와 git이 필요합니다.   
 두 프로그램을 설치 후 아래 과정을 따라주세요.
+
+추가로 OpenWeatherMap API키가 필요합니다.   
+OpenWeatherMap API키를 발급해주세요.
  
 1. 폴더를 Shift+우클릭 후 터미널을 실행합니다.
    
@@ -55,14 +58,18 @@ git clone https://github.com/whitedev7773/LunchCall2024
 1. 라이브러리 설치.bat
 ```
 
-4. 백엔드/프론트엔드 서버 실행
+4. Backend/src/index.js 수정
+> 위 경로 파일을 열어서 API_KEY를 발급받은 API키로 바꿔주세요.
+> 가능하면 SCHOOL_URL을 학교 급식 링크로 수정해주세요.
+
+5. 백엔드/프론트엔드 서버 실행
 > 아래 스트립트 파일을 실행합니다.
 ```
 1. 백엔드 서버 시작.bat
 2. 프론트엔드 서버 시작.bat
 ```
 
-5. 최종 프로그램 실행
+1. 최종 프로그램 실행
 > 아래 (1)의 주소로 접속하거나 (2) 파일을 실행합니다.
 ```
 (1) http://localhost:4173

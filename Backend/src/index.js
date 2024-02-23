@@ -1,3 +1,7 @@
+// 여기를 수정해주세요
+const API_KEY = "1e780cdcdf5762aa8f1a5d61afdae672";
+const SCHOOL_URL = "https://school.cbe.go.kr/jcjeil-h/M01030701/list";
+
 var express = require('express');
 const cors = require('cors');
 const axios = require("axios").default;
@@ -13,7 +17,7 @@ const port = 7773;
 app.use(bodyParser.json(), cors());
 
 const getHtml = async (date) => {
-    return await axios.get("https://school.cbe.go.kr/jcjeil-h/M01030701/list", {params: {ymd: date}});
+    return await axios.get(SCHOOL_URL, {params: {ymd: date}});
 };
 
 // 메인페이지
@@ -65,7 +69,6 @@ app.get('/weather', async (req, res) => {
     const lon = req.query.lon ?? 128.2216388;
     console.log(`날씨 요청 :: [${lat}, ${lon}] 날씨 정보를 얻는 중`);
 
-    const API_KEY = "1e780cdcdf5762aa8f1a5d61afdae672";
     const URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}&cnt=30&units=metric&lang=kr`;
 
     const weather_names = {
